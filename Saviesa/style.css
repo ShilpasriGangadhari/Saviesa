@@ -1,0 +1,188 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.line-decoration {
+  position: relative;
+  padding:  0  10px; 
+}
+
+.line-decoration:before,
+.line-decoration:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top:  75%;
+  width:  75px; 
+  height:  1px; 
+  background: #fff; 
+}
+
+.line-decoration:before {
+  left:  0;
+}
+
+.line-decoration:after {
+  right:  0;
+}
+
+@media (min-width: 997px) and (max-width: 1266px) {
+  .carousel-img {
+      height: auto !important; 
+  }
+}
+
+  .flex-box{
+    background-image: url("Path 2.png");
+    background-repeat: no-repeat;
+    width:250px;
+    height: 300px;
+    color: rgb(81, 77, 77);
+    font-size: 15px;
+    font-weight: bold;
+    border:  1px solid #000; 
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}  
+.flex-box1{
+  width:250px;
+  padding: 50px;
+  height: 150px;
+  font-size: 10px;
+  font-weight: bold;
+  border:  2px solid white; 
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+}
+
+.video-container {
+  position: relative;
+  cursor: pointer;
+}
+.video-container img {
+  width: 100%;
+  height: auto;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.video-container1 {
+  position: relative;
+  cursor: pointer;
+}
+.video-container1 img {
+  width: 100%;
+  height: auto;
+}
+.video-container1 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.background-wrapper {
+  background-position: 10px; 
+}
+
+/* CSS for screens larger than  992px */
+@media (min-width:  993px) {
+  .custom-row {
+    padding-left:  0;
+    padding-right:  0;
+  }
+  .rows {
+    display: flex;
+    background-image: url("Path 67.png");
+    background-size: cover; 
+    background-position:center; 
+    background-color: none;
+  }
+}
+
+/* CSS for screens smaller than or equal to  992px */
+@media (max-width:  992px) {
+  .rows{
+    justify-content: center;
+    background-color: #6A2875; 
+    background-image: none;
+  }
+}
+
+.swiper-button-next, 
+.swiper-button-prev{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background: white;
+   box-shadow: 0 0 10px #ccc;
+
+}
+.swiper-button-next::after,
+.swiper-button-prev::after{
+  font-size: 16px;
+  font-weight: bold;
+  color: #6A2875;
+}
+/* .swiper-pagination{
+  color: #6A2875;
+  width: 50px;
+} */
+
+/* .icons{
+ 
+  background-image: url("Path 67.png");
+  background-repeat: no-repeat;
+} */
+
+.img-fluid-1 {
+  width:  100%; 
+  height: auto; 
+  object-fit: cover; 
+}
+
+
+.footer {
+  position: relative; 
+  min-height:  150px; 
+}
+
+.footer p {
+  position: absolute; 
+  bottom:  0; 
+  left:  0; 
+}
+.frequently{
+  margin-bottom: 75px;
+}
+.card-header1 {
+  border-radius: 5px;
+  width: 100%;
+  margin-top: -45px; 
+}
+
+.img-button {
+  display: none;
+}
+
+.img-button.active {
+  display: inline-block;
+}
